@@ -1,0 +1,19 @@
+{
+  "documentationUrl": "https://docs.airbyte.io/integrations/destinations/local-csv",
+  "supportsIncremental": true,
+  "supported_destination_sync_modes": ["overwrite", "append"],
+  "connectionSpecification": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Bucket Name",
+    "type": "object",
+    "required": ["bucket_name"],
+    "additionalProperties": false,
+    "properties": {
+      "bucket_name": {
+        "description": "Path to the bucket name where data files will be written.",
+        "type": "string",
+        "examples": ["blotout"]
+      }
+    }
+  }
+}

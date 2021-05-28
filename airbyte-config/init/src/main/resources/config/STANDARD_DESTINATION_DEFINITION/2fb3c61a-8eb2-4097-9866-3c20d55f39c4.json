@@ -1,0 +1,7 @@
+{
+  "destinationDefinitionId": "2fb3c61a-8eb2-4097-9866-3c20d55f39c4",
+  "name": "Athena",
+  "dockerRepository": "airflow/destination-athena",
+  "dockerImageTag": "0.0.1",
+  "documentationUrl": "https://docs.airbyte.io/integrations/destinations/meilisearch"
+}
